@@ -1,0 +1,36 @@
+.header__lang-link {
+  margin-right: 12px;
+  padding-bottom: 1px;
+}
+
+.header__lang-link:hover {
+  border-bottom: 2px solid #ffffff;
+}
+
+.header__lang-link_active:hover {
+  opacity: 1;
+}
+
+.header__lang-link:last-child {
+  margin-right: 0;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+
+  .header__lang-link {
+    margin-right: 15px;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+}
+
+@media screen and (min-width: 768px) {
+
+  .header__lang-link {
+    margin-right: 12px;
+    font-size: 24px;
+    line-height: 28px;
+  }
+
+}

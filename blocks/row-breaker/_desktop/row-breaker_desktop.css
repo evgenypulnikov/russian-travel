@@ -1,0 +1,7 @@
+@media screen and (min-width: 1024px) {
+
+  .row-breaker_desktop {
+    display: block;
+  }
+
+}

@@ -9,10 +9,6 @@
   border-bottom: 2px solid #ffffff;
 }
 
-.header__lang-link_active:hover {
-  opacity: 1;
-}
-
 .header__lang-link:last-child {
   margin-right: 0;
 }

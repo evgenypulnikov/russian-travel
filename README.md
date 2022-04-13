@@ -10,6 +10,10 @@
 * HTML5, 
 * CSS3 (Flex, Grid, Animation, Adaptive/Responsive Layout)
 
+**ссылка на pages:**
+
+https://evgenypulnikov.github.io/russian-travel/
+
 ___
 
 ![image](https://user-images.githubusercontent.com/51275060/163237718-db4e4e53-80a2-4acb-9250-7c5c02e41b87.png)

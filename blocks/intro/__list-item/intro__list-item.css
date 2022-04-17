@@ -1,0 +1,8 @@
+.intro__list-item {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: 9px;
+  max-width: 150px;
+  width: 100%;
+}

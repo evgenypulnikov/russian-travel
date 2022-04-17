@@ -32,6 +32,7 @@
 @import url('../blocks/intro/__title/intro__title.css');
 @import url('../blocks/intro/__text/intro__text.css');
 @import url('../blocks/intro/__list/intro__list.css');
+@import url('../blocks/intro/__list-item/intro__list-item.css');
 @import url('../blocks/intro/__list-item-text/intro__list-item-text.css');
 @import url('../blocks/intro/__list-item-text/_weight_bold/intro__list-item-text_weight_bold.css');
 
@@ -64,3 +65,58 @@
 @import url('../blocks/footer/__nav-item/footer__nav-item.css');
 @import url('../blocks/footer/__nav-link/footer__nav-link.css');
 @import url('../blocks/footer/__copyright/footer__copyright.css');
+
+.popup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: visibility 0.2s ease, opacity 0.2s ease;
+  opacity: 0;
+  visibility: hidden;
+}
+
+.popup_is_opened {
+  opacity: 1;
+  visibility: visible;
+}
+
+.popup__container {
+  position: relative;
+  top: 30px;
+}
+
+.popup__close-button {
+  position: absolute;
+  top: -40px;
+  right: -39px;
+  width: 32px;
+  height: 32px;
+  padding: 0;
+  border: none;
+  background-color: #ffffff;
+  background-image: url('../../../images/close-button-icon.svg');
+  background-position: center center;
+  background-repeat: no-repeat;
+}
+
+.popup__close-button:hover {
+  opacity: 0.6;
+  cursor: pointer;
+}
+
+.popup__close-button:not(:hover) {
+  transition: opacity 0.3s ease;
+}
+
+.full-view__image {
+  max-width: 75vw;
+  max-height: 75vh;
+  width: 100%;
+  object-fit: cover;
+}

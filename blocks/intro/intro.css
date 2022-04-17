@@ -1,15 +1,15 @@
 .intro {
   max-width: 984px;
   margin: 0 auto;
-  padding: 92px 48px 0;
+  padding: 92px 48px 110px;
+  border-radius: 10px;
 }
-
 
 
 @media screen and (max-width: 1023px) {
 
   .intro {
-    padding: 85px 24px 0;
+    padding: 85px 24px;
   }
 
 }
@@ -17,7 +17,7 @@
 @media screen and (max-width: 767px) {
 
   .intro {
-    padding: 64px 16px 0;
+    padding: 64px 16px;
   }
 
 }

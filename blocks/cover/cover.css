@@ -2,4 +2,9 @@
   position: relative;
   max-width: 1184px;
   margin: 0 auto;
+  background-color: #000000;
+}
+
+.cover:hover .cover__image {
+  opacity: 0.9;
 }

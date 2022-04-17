@@ -8,6 +8,7 @@
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
+  opacity: 0.7;
 }
 
 .place__website::before {
@@ -22,6 +23,10 @@
   color: #aaaaaa;
   cursor: default;
   pointer-events: none;
+}
+
+.place__website:hover {
+  opacity: 1;
 }
 
 @media screen and (max-width: 1023px) {

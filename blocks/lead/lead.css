@@ -1,5 +1,7 @@
 .lead {
   max-width: 984px;
+  height: 70vh;
+  min-height: 570px;
   margin: 0 auto;
   padding-top: 51px;
 }

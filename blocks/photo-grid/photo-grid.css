@@ -1,8 +1,8 @@
 .photo-grid {
   display: grid;
-  grid-template-rows: auto;
-  grid-template-columns: repeat(auto-fit, minmax(284px, 1fr));
-  gap: 16px;
+  grid-template-rows: repeat(auto-fit, minmax(261px, 2fr));
+  grid-template-columns: repeat(auto-fit, minmax(224px, 1fr));
+  gap: 8px;
   max-width: 1184px;
   margin: 0 auto;
   padding: 92px 48px 0;
@@ -20,8 +20,8 @@
 @media screen and (max-width: 1023px) {
 
   .photo-grid {
-    padding: 89px 24px 0;;
-    grid-template-columns: repeat(auto-fit, minmax(352px, 1fr));
+    padding: 89px 24px 0;
+    grid-template-columns: repeat(auto-fit, minmax(351px, 1fr));
     gap: 16px;
   }
 

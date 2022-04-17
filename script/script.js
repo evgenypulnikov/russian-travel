@@ -1,43 +1,43 @@
 const initPhotos = [
   {
     name: 'Туман',
-    link: '../images/photo-grid-tuman.jpg'
+    link: 'images/photo-grid-tuman.jpg'
   },
   {
     name: 'Сочи',
-    link: '../images/photo-grid-sochi.jpg'
+    link: 'images/photo-grid-sochi.jpg'
   },
   {
     name: 'Ариса',
-    link: '../images/photo-grid-arisa.jpg'
+    link: 'images/photo-grid-arisa.jpg'
   },
   {
     name: 'Байкал',
-    link: '../images/photo-grid-baikal.jpg'
+    link: 'images/photo-grid-baikal.jpg'
   },
   {
     name: 'Эльбрус',
-    link: '../images/photo-grid-elbrus.jpg'
+    link: 'images/photo-grid-elbrus.jpg'
   },
   {
     name: 'Кондратьев',
-    link: '../images/photo-grid-kondratiev.jpg'
+    link: 'images/photo-grid-kondratiev.jpg'
   },
   {
     name: 'Камчатка',
-    link: '../images/photo-grid-kamchatka-1.jpg'
+    link: 'images/photo-grid-kamchatka-1.jpg'
   },
   {
     name: 'Камчатка',
-    link: '../images/photo-grid-kamchatka-2.jpg'
+    link: 'images/photo-grid-kamchatka-2.jpg'
   },
   {
     name: 'Байкал',
-    link: '../images/photo-grid-baikal-2.jpg'
+    link: 'images/photo-grid-baikal-2.jpg'
   },
   {
     name: 'Ергаки',
-    link: '../images/photo-grid-ergaki.jpg'
+    link: 'images/photo-grid-ergaki.jpg'
   },
 ]
 

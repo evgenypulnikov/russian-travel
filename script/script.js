@@ -1,44 +1,40 @@
 const initPhotos = [
   {
-    name: 'Туман',
-    link: 'images/photo-grid-tuman.jpg'
+    name: 'Карелия',
+    link: 'images/karelia.jpg'
   },
   {
     name: 'Сочи',
-    link: 'images/photo-grid-sochi.jpg'
+    link: 'images/sochi.jpg'
   },
   {
-    name: 'Ариса',
-    link: 'images/photo-grid-arisa.jpg'
-  },
-  {
-    name: 'Байкал',
-    link: 'images/photo-grid-baikal.jpg'
+    name: 'Целинное',
+    link: 'images/tselinnoye.jpg'
   },
   {
     name: 'Эльбрус',
-    link: 'images/photo-grid-elbrus.jpg'
-  },
-  {
-    name: 'Кондратьев',
-    link: 'images/photo-grid-kondratiev.jpg'
-  },
-  {
-    name: 'Камчатка',
-    link: 'images/photo-grid-kamchatka-1.jpg'
-  },
-  {
-    name: 'Камчатка',
-    link: 'images/photo-grid-kamchatka-2.jpg'
+    link: 'images/elbrus.jpg'
   },
   {
     name: 'Байкал',
-    link: 'images/photo-grid-baikal-2.jpg'
+    link: 'images/baikal.jpg'
+  },
+  {
+    name: 'Камчатка',
+    link: 'images/kamchatka.jpg'
+  },
+  {
+    name: 'Камчатка',
+    link: 'images/kamchatka-2.jpg'
+  },
+  {
+    name: 'Байкал',
+    link: 'images/baikal-2.jpg'
   },
   {
     name: 'Ергаки',
-    link: 'images/photo-grid-ergaki.jpg'
-  },
+    link: 'images/ergaki.jpg'
+  }
 ]
 
 // Photo Grid

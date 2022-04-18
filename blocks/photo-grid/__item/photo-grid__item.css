@@ -16,6 +16,7 @@
   .photo-grid__item {
     max-width: 352px;
     margin: 0 auto;
+    opacity: 0.9;
   }
 
 }

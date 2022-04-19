@@ -26,6 +26,10 @@
 
 @media screen and (max-width: 767px) {
   .lead {
-    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 320px;
+    padding-top: 0;
   }
 }
